@@ -1,10 +1,9 @@
 <script setup>
-
+  import HomePage from '@/components/homePage.vue';
 </script>
 
 <template>
   <div>
-    <button type="button" class="btn btn-primary">Primary Button</button>
-    <h1>This is an about page</h1>
+    <HomePage/>
   </div>
 </template>
